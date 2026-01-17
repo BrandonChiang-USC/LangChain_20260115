@@ -16,6 +16,7 @@ lib/
 # 絕對不要把密鑰上傳到 GitHub
 .env
 .flaskenv
+config.ini
 
 # --- 套件管理工具 ---
 # 如果使用 Poetry 或 Pipenv

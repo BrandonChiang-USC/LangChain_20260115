@@ -1,0 +1,12 @@
+[AzureOpenAI]
+ENDPOINT = https://your-resource-name.services.ai.azure.com/openai/v1/
+KEY = your-azure-openai-key-here
+GPT_DEPLOYMENT_NAME = gpt-4.1-nano
+Embedding_DEPLOYMENT_NAME = text-embedding-3-small
+
+[Gemini]
+API_KEY = your-gemini-api-key-here
+
+[Qdrant]
+URL = https://your-qdrant-url-here
+API_KEY = your-qdrant-api-key-here
