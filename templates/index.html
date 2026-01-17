@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title></title>
+    <link rel='stylesheet' href="{{url_for('static', filename='css/style.css')}}">
+</head>
+
+<body>
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <input type="file" name="file1" placeholder="upload file">
+        <input type="submit" value="檔案上傳">
+    </form>
+    <br>
+    <div id="row">
+        <div id="myGraph" class="column1">
+            <img id="output" style="max-width:100%" src="{{user_image}}" alt="image">
+        </div>
+        <div id="chat" class="column2">
+            <textarea id="dialog"></textarea>
+            <input type="text" id="message" name="message" placeholder="Enter your message">
+            <button id="submit" type="button">Send</button>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="{{url_for('static',filename='js/main.js')}}"></script>
+</body>
+</html>

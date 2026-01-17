@@ -1,0 +1,2 @@
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.s1DQfzpruduBVi6ese8FHfEyZwlynDm1ld6Ly5vpg1A
+https://0c183504-778d-47c1-b134-f017073b28cd.us-east4-0.gcp.cloud.qdrant.io:6333

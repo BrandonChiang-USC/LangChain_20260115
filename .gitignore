@@ -1,0 +1,29 @@
+# --- Python 暫存檔 ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- 虛擬環境 (Virtual Environments) ---
+# 這是最建議排除的，因為每台電腦的環境應該獨立安裝
+.venv/
+venv/
+env/
+ENV/
+bin/
+lib/
+
+# --- 環境變數與秘密資訊 ---
+# 絕對不要把密鑰上傳到 GitHub
+.env
+.flaskenv
+
+# --- 套件管理工具 ---
+# 如果使用 Poetry 或 Pipenv
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- 編輯器設定 (選配) ---
+.vscode/
+.idea/
+.DS_Store (Mac 系統檔)
